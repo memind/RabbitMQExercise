@@ -1,0 +1,6 @@
+@RabbitMQ.API.Consumer_HostAddress = http://localhost:5011
+
+GET {{RabbitMQ.API.Consumer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
